@@ -1,0 +1,8 @@
+.page {
+  font-family: "Inter-Black", "Inter-Regular", sans-serif;
+  color: white;
+  background-color: #2a2c2f;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
