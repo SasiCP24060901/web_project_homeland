@@ -1,32 +1,31 @@
 .content {
   padding-top: 50px;
-  padding-left: 575px;
-  color: white;
+  padding-left: 180px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   position: relative;
-  max-width: 65%;
+  max-width: 55%;
 }
 .content__title {
-  width: 707px;
-  height: 147px;
-  top: 1041px;
-  left: 24px;
+  width: 830px;
+  height: 173.92px;
+  top: 1269px;
+  left: 148px;
   font-family: "Inter-Black";
   font-weight: 900;
-  font-size: 96px;
-  line-height: 49px;
+  font-size: 54px;
+  line-height: 58px;
   letter-spacing: 0%;
   color: white;
   margin: 0;
 }
 .content__phrase {
-  width: 720px;
-  height: 136px;
-  top: 1238px;
-  left: 24px;
+  width: 738px;
+  height: 135.66px;
+  top: 1482.91px;
+  left: 148px;
   font-family: "Inter-SemiBold";
   font-weight: 400;
   font-size: 24px;
@@ -36,10 +35,10 @@
 }
 
 .content__author {
-  width: 720px;
-  height: 34px;
-  top: 1366px;
-  left: 24px;
+  width: 732px;
+  height: 33.91px;
+  top: 1628.56px;
+  left: 148px;
   font-family: "Inter-Regular";
   font-weight: 400;
   font-size: 24px;
@@ -49,10 +48,10 @@
   text-align: right;
 }
 .content__description {
-  width: 720px;
-  height: 182px;
-  top: 1432px;
-  left: 24px;
+  height: 230px;
+  top: 181.54px;
+  left: 1694.46px;
+  font-size: 148px;
   font-family: "Inter-Regular";
   font-weight: 400;
   font-size: 16px;
@@ -62,7 +61,38 @@
 }
 
 @media screen and (max-width: 768px) {
+  .content {
+    padding-top: 45px;
+    padding-left: 40px;
+    max-width: 55%;
+  }
   .content__title {
-    font-size: 75px;
+    width: 680px;
+    height: 147px;
+    font-size: 45px;
+    line-height: 49px;
+    letter-spacing: 0%;
+    color: white;
+    margin: auto;
+  }
+
+  .content__phrase {
+    width: 720px;
+    height: 136px;
+    top: 1238px;
+    left: 24px;
+  }
+  .content__author {
+    width: 720px;
+    height: 34px;
+    top: 1366px;
+    left: 24px;
+  }
+  .content__description {
+    width: 720px;
+    height: 182px;
+    top: 1432px;
+    left: 24px;
+    font-size: 16px;
   }
 }
