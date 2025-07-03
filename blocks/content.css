@@ -71,8 +71,6 @@
     height: 147px;
     font-size: 45px;
     line-height: 49px;
-    letter-spacing: 0%;
-    color: white;
     margin: auto;
   }
 
@@ -94,5 +92,42 @@
     top: 1432px;
     left: 24px;
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content {
+    padding-top: 45px;
+    padding-left: 25px;
+    max-width: 45%;
+  }
+  .content__title {
+    width: 288px;
+    height: 175px;
+    top: 570px;
+    left: 16px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .content__phrase {
+    width: 288px;
+    height: 300px;
+    top: 785px;
+    left: 16px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .content__author {
+    width: 288px;
+    top: 1095px;
+    left: 16px;
+    font-size: 24px;
+  }
+  .content__description {
+    width: 288px;
+    height: 442px;
+    top: 1161px;
+    left: 16px;
   }
 }
