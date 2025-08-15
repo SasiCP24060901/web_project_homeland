@@ -8,10 +8,6 @@
   padding-top: 80px;
 }
 
-.gallery__mini-grid {
-  max-width: 100%;
-}
-
 @media screen and (max-width: 768px) {
   .gallery-grid {
     grid-template-columns: 1fr 1fr;

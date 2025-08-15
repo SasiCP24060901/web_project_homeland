@@ -4,5 +4,6 @@
 @import url(../blocks/header.css);
 @import url(../blocks/content.css);
 @import url(../blocks/footer.css);
-@import url(../blocks/miniatures.css);
+@import url(../blocks/gallery-grid.css);
 @import url(../blocks/places.css);
+@import url(../blocks/gallery.css);
