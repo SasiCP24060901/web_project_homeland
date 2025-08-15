@@ -1,12 +1,10 @@
 .content {
   padding-top: 50px;
-  padding-left: 180px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   position: relative;
-  max-width: 55%;
 }
 .content__title {
   width: 830px;
@@ -20,6 +18,7 @@
   letter-spacing: 0;
   color: white;
   margin: 0;
+  padding-left: 180px;
 }
 .content__phrase {
   width: 738px;
@@ -32,6 +31,7 @@
   line-height: 34px;
   letter-spacing: 0;
   color: white;
+  padding-left: 180px;
 }
 
 .content__author {
@@ -58,20 +58,22 @@
   line-height: 163%;
   letter-spacing: 0;
   color: white;
+  padding-left: 40px;
+  padding-right: 400px;
 }
 
 @media screen and (max-width: 768px) {
   .content {
-    padding-top: 45px;
-    padding-left: 40px;
-    max-width: 55%;
+    max-width: 100%;
   }
   .content__title {
-    width: 680px;
+    width: 650px;
     height: 147px;
     font-size: 45px;
     line-height: 49px;
-    margin: auto;
+    margin: auto 0;
+    padding-top: 0 px;
+    padding-left: 40px;
   }
 
   .content__phrase {
@@ -79,6 +81,8 @@
     height: 136px;
     top: 1238px;
     left: 24px;
+    padding-top: 45px;
+    padding-left: 40px;
   }
   .content__author {
     width: 720px;
@@ -92,14 +96,13 @@
     top: 1432px;
     left: 24px;
     font-size: 16px;
+    padding-top: 45px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .content {
-    padding-top: 45px;
-    padding-left: 25px;
-    max-width: 45%;
+    max-width: 100%;
   }
   .content__title {
     width: 288px;
